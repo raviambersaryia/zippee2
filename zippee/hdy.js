@@ -247,14 +247,10 @@ const reportData = [
        
     }, total: 546 },
     { day: "Monday", date: "8/25/2025", stores: {
-        "Kalyan nagar ": 424,
-        "Basaweshwar Nagar Mnow": 267,
-        "Jakkur Mnow": 228,
-        "Begur Mnow": 489,
-        "Thyagaraja Nagar Mnow": 372,
-        "Brookfield Mnow": 881,
-        "JP nagar Mnow": 448,
-        "Sarjapur road Mnow": 457
+       "Manikonda Mnow": 216,
+        "Gachibowli Mnow": 219,
+        "Attapur Mnow": 91,
+        "Nizampet Mnow": 236,
     }, total: 3566 },
     { day: "Tuesday", date: "8/26/2025", stores: {
         "Kalyan nagar ": 492,
