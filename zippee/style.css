@@ -140,7 +140,7 @@ body {
 
 /* Header Section */
 .nav_cls {
-    height: 600px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -503,3 +503,4 @@ footer {
 .hide-col {
     display: none !important;
 }
+
