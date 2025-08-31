@@ -56,7 +56,11 @@ document.getElementById('riderSubmitBtn').addEventListener('click', () => {
       'Brookfield Mnow',
       'Sarjapur road Mnow',
       'Jakkur Mnow',
-      'Thyagaraja Nagar Mnow'
+      'Thyagaraja Nagar Mnow',
+       'Manikonda Mnow',
+      'Gachibowli Mnow',
+      'Attapur Mnow',
+      'Nizampet Mnow'
     ];
     riderDataRows = riderDataRows.filter(r => allowedStores.includes(r.store));
 
@@ -100,3 +104,4 @@ document.getElementById('riderSearch').addEventListener('input', function () {
   );
   renderRiderTable(filtered);
 });
+
