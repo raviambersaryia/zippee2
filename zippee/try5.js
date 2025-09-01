@@ -9,7 +9,7 @@ const reportData = [
     
   {
     day: "Monday",
-    date: "09/01/2025",
+    date: "9/1/2025",
     stores: {
       "Kalyan nagar": 351,
       "Basaweshwar Nagar Mnow": 260,
@@ -1848,3 +1848,4 @@ function formatDate(dt) {
     return `${pad(dt.getMonth() + 1)}-${pad(dt.getDate())}-${dt.getFullYear()} ${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
 
 }
+
