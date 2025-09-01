@@ -75,7 +75,7 @@ const reportData = [
   }, total: 762 },
    {
         "day": "Monday",
-        "date": "09-01-2025",
+        "date": "9/1/2025",
         "stores": {
             "Manikonda Mnow": 150,
             "Gachibowli Mnow": 202,
@@ -1630,4 +1630,5 @@ function excelDateToJSDate(serial) {
 function formatDate(dt) {
     const pad = n => n < 10 ? '0' + n : n;
     return `${pad(dt.getMonth() + 1)}-${pad(dt.getDate())}-${dt.getFullYear()} ${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
+
 }
