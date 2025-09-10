@@ -121,12 +121,12 @@ const reportData = [
         day: "Thursday",
         date: "9/11/2025",
         stores: {
-            "Manikonda Mnow": 240,
-            "Gachibowli Mnow": 323,
-            "Attapur Mnow": 134,
-            "Nizampet Mnow": 261
+            "Manikonda Mnow": 268,
+            "Gachibowli Mnow": 355,
+            "Attapur Mnow": 172,
+            "Nizampet Mnow": 197
         },
-        "total": 958
+        "total": 992
     },
     {
         date: "Friday",
@@ -1566,4 +1566,5 @@ function formatDate(dt) {
     return `${pad(dt.getMonth() + 1)}-${pad(dt.getDate())}-${dt.getFullYear()} ${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
 
 }
+
 
