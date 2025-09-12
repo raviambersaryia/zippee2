@@ -6,8 +6,18 @@ function zippeeToggleMenu() {
 
 
 const reportData = [
-    
-   {
+     {
+        day: "Friday",
+        date: "9/11/2025",
+        stores: {
+            "Manikonda Mnow": 268,
+            "Gachibowli Mnow": 355,
+            "Attapur Mnow": 172,
+            "Nizampet Mnow": 197
+        },
+        "total": 992
+    },
+    {
         day: "Friday",
         date: "9/12/2025",
         stores: {
@@ -1177,9 +1187,6 @@ document.getElementById("finalTableBtn").addEventListener("click", function () {
             mergedHTML += `<td${hide ? ' class="hide-col"' : ''}></td>`;
         }
     });
-    attemptedOrdersPctIndices.forEach(() => {
-        mergedHTML += `<td></td>`;
-    });
     mergedHTML += `<td></td>`; // Deep Pain (Order Count) grand total (not needed)
     mergedHTML += `<td></td>`; // Order Attainment  grand total (not needed)
     mergedHTML += `<td></td>`; // Corrected DeepPain grand total (not needed)
@@ -1443,8 +1450,4 @@ function excelDateToJSDate(serial) {
 function formatDate(dt) {
     const pad = n => n < 10 ? '0' + n : n;
     return `${pad(dt.getMonth() + 1)}-${pad(dt.getDate())}-${dt.getFullYear()} ${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
-
 }
-
-
-

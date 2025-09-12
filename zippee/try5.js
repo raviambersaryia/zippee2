@@ -5,24 +5,35 @@ function zippeeToggleMenu() {
 
 
 
-const reportData = [ 
-  
+const reportData = [
+    { day: "Friday", date: "8/1/2025", stores: {
+        "Kalyan nagar ": 500,
+         "Basaweshwar Nagar Mnow": 315,
+         "Jakkur Mnow": 270,
+         "Begur Mnow": 577,
+         "Thyagaraja Nagar Mnow": 439,
+         "Brookfield Mnow": 991,
+         "JP nagar Mnow": 529,
+         "Sarjapur road Mnow": 539
+    }, total: 4159 },
+   
+   
     {
         day: "Thursday",
         date: "9/11/2025",
         stores: {
-            "Kalyan nagar": 525,
-            "Basaweshwar Nagar Mnow": 397,
-            "Jakkur Mnow": 353,
-            "Begur Mnow": 672,
-            "Thyagaraja Nagar Mnow": 393,
-            "Brookfield Mnow": 1051,
-            "JP nagar Mnow": 562,
-            "Sarjapur road Mnow": 571
+            "Kalyan nagar": 561,
+            "Basaweshwar Nagar Mnow": 415,
+            "Jakkur Mnow": 356,
+            "Begur Mnow": 740,
+            "Thyagaraja Nagar Mnow": 478,
+            "Brookfield Mnow": 1054,
+            "JP nagar Mnow": 630,
+            "Sarjapur road Mnow": 620
         },
-        "total": 4524
+        "total": 4854
     },
-   {
+    {
         day: "Friday",
         date: "9/12/2025",
         stores: {
@@ -171,7 +182,82 @@ const reportData = [
             "Sarjapur road Mnow": 1628
         },
         "total": 11782
-    }
+    },
+    {
+        day: "Monday",
+        date: "9/22/2025",
+        stores: {
+            "Kalyan nagar": 853,
+            "Basaweshwar Nagar Mnow": 764,
+            "Jakkur Mnow": 679,
+            "Begur Mnow": 1292,
+            "Thyagaraja Nagar Mnow": 638,
+            "Brookfield Mnow": 1706,
+            "JP nagar Mnow": 912,
+            "Sarjapur road Mnow": 1032
+        },
+        "total": 7942
+    },
+    {
+        day: "Tuesday",
+        date: "9/23/2025",
+        stores: {
+            "Kalyan nagar": 688,
+            "Basaweshwar Nagar Mnow": 509,
+            "Jakkur Mnow": 436,
+            "Begur Mnow": 907,
+            "Thyagaraja Nagar Mnow": 568,
+            "Brookfield Mnow": 1292,
+            "JP nagar Mnow": 772,
+            "Sarjapur road Mnow": 759
+        },
+        "total": 5949
+    },
+    {
+       day: "Wednesday",
+       date: "9/24/2025",
+        stores: {
+            "Kalyan nagar": 738,
+            "Basaweshwar Nagar Mnow": 546,
+            "Jakkur Mnow": 468,
+            "Begur Mnow": 974,
+            "Thyagaraja Nagar Mnow": 629,
+            "Brookfield Mnow": 1387,
+            "JP nagar Mnow": 829,
+            "Sarjapur road Mnow": 815
+        },
+        "total": 6386
+    },
+    {  
+        day: "Thursday",
+        date: "9/25/2025",
+        stores: {
+            "Kalyan nagar": 849,
+            "Basaweshwar Nagar Mnow": 628,
+            "Jakkur Mnow": 538,
+            "Begur Mnow": 1120,
+            "Thyagaraja Nagar Mnow": 723,
+            "Brookfield Mnow": 1595,
+            "JP nagar Mnow": 954,
+            "Sarjapur road Mnow": 938
+        },
+        "total": 7345
+    },
+    {
+        day: "Friday",
+        date: "9/26/2025",
+        stores: {
+            "Kalyan nagar": 879,
+            "Basaweshwar Nagar Mnow": 650,
+            "Jakkur Mnow": 558,
+            "Begur Mnow": 1160,
+            "Thyagaraja Nagar Mnow": 749,
+            "Brookfield Mnow": 1651,
+            "JP nagar Mnow": 988,
+            "Sarjapur road Mnow": 971
+        },
+        "total": 7606
+    },
     {
         day: "Saturday",
         date: "9/27/2025",
@@ -1471,9 +1557,4 @@ function excelDateToJSDate(serial) {
 function formatDate(dt) {
     const pad = n => n < 10 ? '0' + n : n;
     return `${pad(dt.getMonth() + 1)}-${pad(dt.getDate())}-${dt.getFullYear()} ${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
-
 }
-
-
-
-
