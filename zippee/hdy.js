@@ -234,23 +234,23 @@ const reportData = [
 // we add the new hour percentages data here
 
 const hourPercentages = [
-  { hour: "6-7 AM", Sunday: 1.00, Monday: 1.00, Tuesday: 1.00, Wednesday: 1.00, Thursday: 1.00, Friday: 1.00, Saturday: 1.00 },
-  { hour: "7-8 AM", Sunday: 2.50, Monday: 3.00, Tuesday: 2.00, Wednesday: 2.00, Thursday: 2.50, Friday: 2.50, Saturday: 3.00 },
-  { hour: "8-9 AM", Sunday: 6.40, Monday: 7.10, Tuesday: 7.50, Wednesday: 6.80, Thursday: 7.80, Friday: 8.10, Saturday: 7.10 },
-  { hour: "9-10 AM", Sunday: 12.00, Monday: 13.20, Tuesday: 13.10, Wednesday: 13.50, Thursday: 14.00, Friday: 15.00, Saturday: 13.50 },
-  { hour: "10-11 AM", Sunday: 19.10, Monday: 19.10, Tuesday: 20.10, Wednesday: 20.90, Thursday: 20.90, Friday: 22.30, Saturday: 20.70 },
-  { hour: "11-12 PM", Sunday: 27.70, Monday: 25.40, Tuesday: 27.30, Wednesday: 28.00, Thursday: 28.10, Friday: 30.00, Saturday: 28.10 },
-  { hour: "12-1 PM", Sunday: 35.60, Monday: 32.30, Tuesday: 34.00, Wednesday: 35.10, Thursday: 35.00, Friday: 36.90, Saturday: 35.70 },
-  { hour: "1-2 PM", Sunday: 43.20, Monday: 39.40, Tuesday: 40.20, Wednesday: 41.40, Thursday: 40.90, Friday: 42.80, Saturday: 43.20 },
-  { hour: "2-3 PM", Sunday: 50.00, Monday: 45.30, Tuesday: 47.00, Wednesday: 46.80, Thursday: 46.90, Friday: 48.80, Saturday: 49.60 },
-  { hour: "3-4 PM", Sunday: 56.70, Monday: 51.90, Tuesday: 53.50, Wednesday: 52.40, Thursday: 52.80, Friday: 55.60, Saturday: 57.30 },
-  { hour: "4-5 PM", Sunday: 63.10, Monday: 59.40, Tuesday: 59.60, Wednesday: 59.10, Thursday: 59.30, Friday: 62.10, Saturday: 64.10 },
-  { hour: "5-6 PM", Sunday: 70.50, Monday: 67.20, Tuesday: 66.40, Wednesday: 62.00, Thursday: 65.70, Friday: 69.10, Saturday: 70.70 },
-  { hour: "6-7 PM", Sunday: 77.20, Monday: 74.40, Tuesday: 73.40, Wednesday: 76.80, Thursday: 73.00, Friday: 75.40, Saturday: 77.60 },
-  { hour: "7-8 PM", Sunday: 83.70, Monday: 81.80, Tuesday: 81.40, Wednesday: 80.30, Thursday: 80.70, Friday: 82.90, Saturday: 84.00 },
-  { hour: "8-9 PM", Sunday: 88.80, Monday: 89.10, Tuesday: 89.30, Wednesday: 88.20, Thursday: 88.10, Friday: 90.00, Saturday: 89.20 },
-  { hour: "9-10 PM", Sunday: 94.50, Monday: 95.50, Tuesday: 96.00, Wednesday: 95.10, Thursday: 95.30, Friday: 95.40, Saturday: 94.30 },
-  { hour: "10-11 PM", Sunday: 100.00, Monday: 100.20, Tuesday: 99.90, Wednesday: 100.00, Thursday: 99.70, Friday: 100.00, Saturday: 99.80 }
+  { hour: "6-7",   Sunday: 0.75,  Monday: 1.06,  Tuesday: 1.09,  Wednesday: 1.16,  Thursday: 0.59,  Friday: 0.78,  Saturday: 0.45 },
+  { hour: "7-8",   Sunday: 2.98,  Monday: 3.81,  Tuesday: 3.45,  Wednesday: 4.46,  Thursday: 2.51,  Friday: 4.18,  Saturday: 2.46 },
+  { hour: "8-9",   Sunday: 7.02,  Monday: 8.20,  Tuesday: 7.83,  Wednesday: 10.73, Thursday: 7.62,  Friday: 8.21,  Saturday: 12.11 },
+  { hour: "9-10",  Sunday: 12.02, Monday: 12.83, Tuesday: 13.95, Wednesday: 16.55, Thursday: 12.40, Friday: 13.31, Saturday: 12.11 },
+  { hour: "10-11", Sunday: 19.41, Monday: 18.56, Tuesday: 20.21, Wednesday: 22.74, Thursday: 19.12, Friday: 20.40, Saturday: 18.76 },
+  { hour: "11-12", Sunday: 27.07, Monday: 25.20, Tuesday: 27.80, Wednesday: 29.93, Thursday: 25.93, Friday: 27.31, Saturday: 25.22 },
+  { hour: "12-1",  Sunday: 35.95, Monday: 31.99, Tuesday: 35.85, Wednesday: 37.28, Thursday: 32.65, Friday: 35.57, Saturday: 33.71 },
+  { hour: "1-2",   Sunday: 43.18, Monday: 38.18, Tuesday: 42.54, Wednesday: 43.89, Thursday: 37.97, Friday: 42.74, Saturday: 40.62 },
+  { hour: "2-3",   Sunday: 50.04, Monday: 44.37, Tuesday: 48.80, Wednesday: 50.38, Thursday: 44.13, Friday: 47.63, Saturday: 47.63 },
+  { hour: "3-4",   Sunday: 57.24, Monday: 51.52, Tuesday: 55.30, Wednesday: 57.11, Thursday: 51.96, Friday: 57.49, Saturday: 55.09 },
+  { hour: "4-5",   Sunday: 63.40, Monday: 58.42, Tuesday: 61.66, Wednesday: 64.63, Thursday: 59.36, Friday: 63.73, Saturday: 62.71 },
+  { hour: "5-6",   Sunday: 70.36, Monday: 65.47, Tuesday: 67.36, Wednesday: 70.58, Thursday: 67.48, Friday: 70.11, Saturday: 69.75 },
+  { hour: "6-7",   Sunday: 77.50, Monday: 72.86, Tuesday: 74.66, Wednesday: 77.31, Thursday: 75.14, Friday: 76.92, Saturday: 77.21 },
+  { hour: "7-8",   Sunday: 83.37, Monday: 80.41, Tuesday: 81.58, Wednesday: 83.05, Thursday: 83.05, Friday: 83.65, Saturday: 83.65 },
+  { hour: "8-9",   Sunday: 88.37, Monday: 87.10, Tuesday: 88.55, Wednesday: 88.99, Thursday: 88.99, Friday: 89.86, Saturday: 89.81 },
+  { hour: "9-10",  Sunday: 94.75, Monday: 93.55, Tuesday: 95.19, Wednesday: 95.59, Thursday: 95.36, Friday: 95.59, Saturday: 95.53 },
+  { hour: "10-11", Sunday: 100.00, Monday: 100.00, Tuesday: 100.00, Wednesday: 99.99, Thursday: 100.01, Friday: 100.01, Saturday: 100.00 }
 ];
 
 
